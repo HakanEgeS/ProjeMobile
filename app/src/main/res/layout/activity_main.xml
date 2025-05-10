@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#E8F5E9">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Campus Transport App"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnShuttle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shuttle Saatleri"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnCarpool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Araç Paylaşımı"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Harita" />
+    <Button
+        android:id="@+id/btnAnnouncements"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Duyurular"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
